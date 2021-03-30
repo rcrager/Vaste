@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*
+Color Palette (In Order)
+Squid
+#DF9F9D
+#2A6471
+#AE3109
+#486E76
+#9F9495
+#C25E39
+
+Home Page
+#DD8567
+#D8745E
+#F2B59C
+#FFDFC4
+#CF5539
+#12130F
+
+*/
+h5{
+/* Home */
+color: #DD8567;
+color: #D8745E;
+color: #F2B59C;
+color: #FFDFC4;
+color: #CF5539;
+color: #12130F;
+}
+body{
+  background-color: rgb(255, 225, 225);
+  margin: 0px;
+}
+#bannerContainer{
+  display:flex;
+  background-color:#CF5539;
+  height: 45px;
+  width:100%;
+  flex-direction: row;
+  font-family: 'Poppins';
+  color: aliceblue;
+  justify-content: space-between;
+  font-size: 15px;
+  align-items: center;
+}
+
+#bannerContainer > *{
+  margin: 0px;
+  height: 100%;
+}
+
+
+
+#bodyContainer > * {
+  display: flex;
+  width:100%;
+  background-color:rgb(255, 225, 225);
+  flex-direction:column;
+  overflow-x: scroll;
+  font-family: 'Poppins';
+  font-size: 15px;
+  align-items:left;
+  justify-content: left;
+}
+#btnAddText{
+  display:none;
+}
+#bodyContainer > img{
+  display:none;
+}
+#bodyContainer > span{
+  display:none;
+}
+
+#bodyContainer > button{
+  background-color: #CF5539;
+  border:0;
+  color: rgb(255, 225, 225);
+  justify-content: space-evenly;
+  width: 10%;
+  margin: 3px;
+  margin-top: 7px;
+}
+#bodyContainer > button:hover + img{
+  display: flex;
+  transition: .25s;
+}
+#bodyContainer > button:hover + #btnAddText{
+  display: flex;
+  transition: .25s;
+}
