@@ -15,10 +15,16 @@
   </div>
 
   <div id="bodyContainer">
+    <button id="pasteBtn" onclick="pasteContent()">Paste Content</button>
     <!--<button onclick="copyText(this);">Blank Pasted Text</button>-->
     <span style="display: none;" id="tooltipCopied">Copied!</span>
     <img style="display: none;" id="btnDelete" src="https://www.pngfind.com/pngs/m/3-31254_red-cross-mark-clipart-black-background-red-x.png">
     <!--<button id="btnAddText" onclick="addButton();">+</button>-->
   </div>
+
+  <div id="updateContainer" onload="loadData()">
+    <p>Pasted TExt Goes Here</p>
+  </div>
+
 </body>
 </html>

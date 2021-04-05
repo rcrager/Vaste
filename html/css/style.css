@@ -49,8 +49,6 @@ body{
   height: 100%;
 }
 
-
-
 #bodyContainer > * {
   display: flex;
   width:100%;
@@ -70,6 +68,7 @@ body{
 }
 #bodyContainer > span{
   display:none;
+  overflow-x: scroll;
 }
 
 #bodyContainer > button{
@@ -77,6 +76,8 @@ body{
   border:0;
   color: rgb(255, 225, 225);
   justify-content: space-evenly;
+  align-content: center;
+  overflow-x:unset;
   width: 10%;
   margin: 3px;
   margin-top: 7px;
